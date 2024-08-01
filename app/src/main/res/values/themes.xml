@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MaterialDesign" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+<!--        theme.materialcommponent. fee kteer theme bye5telfo daynight 3an l light masln fe wa7de esma buttom sheet btl3leak l app kela shafefe bekoun lawna -->
+<!--     statusbarcolor:colorprimarydark,-->
+<!--     toolbar:colorprimary-->
+<!--     textintoolbar:textcolorprimary-->
+<!--     navigation color:navigationBarcolor-->
+<!--     background color:windowbackground-->
+<!--     coloraccent:byest5dam bel color views mtl l button btkoun mawjoude-->
+
+<!--        enta matlob t7ot 3 alwen coloprimary,colorprimarydark,color accent-->
+        <item name="colorPrimary">@color/colorprimary</item>
+        <item name="colorPrimaryDark">@color/colorprimarydark</item>
+        <item name="colorAccent">@color/coloraccent</item>
+    </style>
+
+
+    <style name="Theme.MaterialDesign" parent="Base.Theme.MaterialDesign" />
+</resources>

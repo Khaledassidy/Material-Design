@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivity">
+
+
+<!--    android:fitsSystemWindows="true" bte5od ya true ya false ma3neta ab3ed shshe ta3etak bteshmel mn 3end l status bar la3end l navigation bar shshe hayde bas enta bas kenet ta3mel back ground lal parent ykoun 7ododa mn 3end l ta7t l toolbar w nzoll la abl l navigation bar bas enta 3am t2olo fistssystemwindow="true" 3am t2olo ya3ne layout l parent bada t8ate kel shshe mn demna l status bar b ma3na tene tasmeme ta3elak la7 yeje ta7t l status bar ya3ne hala2 iza enta ma 7atyta la hay l attribute w 7atet back ground lawna red w sha8lt l application la7 tle2e eno l ststus bar 2a5ad loun l primary dark greed w soura mn ba3d l stsus bar la abl naveigation bar ya3ne ab3eed shshe kenet mn ba3d l ststus bar la abl navigation bar hala2 7ot fitsystemwindow true la7 y5le soura tetla3 asfal mn l ststus bar ya3ne howe 3mlha telk2eyn padding b me2dar l ststus bar l ststus bar nazala la ta7t ya3ne saret l soura 2a3la b shway ya3ne sar me2dar shshe mn 3end l status bar la 3end l navigation bar ya3ne jareb 7ot l loun l statsus bar shafef 7a tshof iza kont 7atet hay l attribute eno sar l soura mn 3end l ststus bar la ta7t w jareb nafs she 3ala l navigation bar mn ststsus bar la 3end navigation ya3ne 5ala 7afet l soura badel ma tkoun ta7t l status bar 5aleha b 7afet l window kola 2aw sheshe kola la heek 5aset l fitwindow bta3teha la 3onsour bt5le l 3onsour ye5od 2ab3ed sheshe kola mn 7afet jehez fo2 la 7efet jehez ta7t         -->
+
+<!--    app:contentScrim="":howe loun l toolbar bas yezhar ya3ne enta bas tetla3 byezhar l toolbar sho badak lawno -->
+<!--    feek kamen bel collapsetoolabr layout t7ded masln l text bas tetla3 adesh badak ykoun l marging taba3 l bedeye w neheye bas yezhar l text 3ala tool bar kamne l padding esma expandedtitle ya3ne title bas yserlo expanded ya3ne lama yetwasa3 ykoun ta7t masln mesh 3al toolbar expandedtitlemarggin="10dp"    -->
+<!--    fee kamen attribute bel collapsetoolabr layout esma layout_scrollFlags feha mahmo3a mn l 5asa2es metl hay l 5asa2es mheme jedan lezm efham kel wa7de
+
+scroll ma3neta esma7 lal user bel scroll eno yetal3 w yenzal hala2 b2alb l collapsetoolbarlayout fe 3osnouren toolbar ,imageview hala2 enta 7atyna haw le 2eno haw le badak yehoun yezharo w ye5tefo bas iza badak 3onosur zyede 3lyhoun bas ykoun sebet ma ye5tefe bas tetal3 w tenzal bt7oto jowa l l appbar 7ed l collapsing mesh joweta hala2 3mlna run sar bas tes7ab la 23la tkoun l mouse 3ala l image bte5tefe w btezhar l toolbar w wa2t tenzal btezhar soura bas 3am jarenb 2a3ml scroll 3ala l manta2a le ta7t l image ma3am yen3amal scroll 2bl ma ne7ke 3a hay l tool bar 3ande ma3am yezhar lesh ma zahar toolbar zahar bas l status bar bas tale3 w nazel l2no ana bel theme 3ande mest3mel noactionbar ya3ne ma fe actionbar b wala shshe tyeb enta bte7kelo ma fe wala action bar b wala shshe keef badak t2olo yesta5dem toolbar le 3mlto belm activity ka actionbar bteje 3al activity java bta3te id la toolbar w bta3mel inflate  //best5dem method esma setsupport actionbar w ba3teha toolbar ta3ete ma3neto 5ale l action bar  l 2efterade ta3el shshe howe toolbar le ana 3mlto bel activity setSupportActionBar(toolbar); hala2 le sar hay l image view eja l toolbar faw2a l2no fe3lyan l colllapsing toolbarlayout btemshe btrateb heda 7atetlk soura w 7atetlak toolbar ykoun bel soura tab3an lama teje ta3mel scroll byezhar ma3ak toolbar bedalo yez8ar yez8ar b yez8ar la7ed ma yesbat bel manta2a ta3et l actionbar  tab3an iza bedal 3am tetela3 bel scroll bye5tefe ma3ak fo2 hala2 badna n7ola la hay l meshkle:
+hala2 fe ba3d l 5asa2es lezm te5odha b3een l 2e3tebar 3ashen tet3emal ma3 l 3anaser l mawjoude bel collapsing toolbar sho heye:
+bel image view fe attrinute esma layout_collapseMode= mesh bas bel image view b kel sha8le mawjoude de5el l collapsing ma3neta lama ta3mel collapse sho l mode ta3elo :
+parallax:ma3neta azher soura b mazhar ajmal b7es l animation le feha ykoun 7elo w l manzar ta3ela ykoun flexible 5elel ma enta bteshte8l tab3an lezm tendaf lal 3anaser howa l collapsingtoolbar layout
+bade defa kamen hay l attribute bas 5aleha pin sho ya3ne abl ma 5aleha bade eje 2a3mel 7arake ana 3ande menue feha item esma add bade 7ot oncreateaction menue keef ba3mel menuue 3mlt menue b2alb zer add l zer l add le 7atyto bel menue bas etla3 bel soura 3am ye5tefe ma3am ydal 3al toolbar fa keef bade 5ale mawjoud 7ata law tle3t howe 3am ykoun bas tkoun soura bas 2a3mel scroll la fo2 w tbyen l toolbar 3am ye5tefe ma3 l 3el mawjoud howe 3al toolbar fa 3ashen 2olo sabet heda l button makeno brou7 b2olo l collapsemode bas yseer collapse lal toolbar 5aleha pin ya3ne sabeto makeno lal tool bar bas yen3amal collapse hay l 5asyeye ma btbyen ela eza keen 3anndak menue ya3ne fe 3anaser bel toolbar
+popup theme ma3neta iza badak ta3mel popup menue 2aw she heek popup
+
+hala2 badna nerja3 3ala 5asyet l scrollflag:
+scroll:ma3neta bt5le l user ya3mel scroll ana bkel l 7alet bade 5ale l user ya3mel scroll bt2olo no scroll
+noscroll:ma bt5le l user ya3mel scroll
+
+be2e l 5asa2es todaf edafa 3ala 5aseyet l scroll ya3ne scroll keef ya3ne scroll| 5aseye tenye
+scroll|enteralways:hala2 law jeet ana sha8lt sheshe l text le 7atyto ana bayan ta7t soura lama ta3mel scroll la soura la fo2 bebayn text lama te5fe soura bebyen text kolo bas ana me3ne eno text heda ykoun ta7t soura w 2a3mel 3lee scroll bel 7ale hay best3mel she esmo nested scroll view beje b2olo heda textview ma bado ykoun houn bado ykoun jowa she esmo nested scroll view w joweta b7ot l textview hala2 3ashen 2olo hay l nested scroll ta7t l image view beste3mel she esmo b2alb l nested scroll atribute esma layout_behavior ya3ne solouk l nested scroll w ba3te @string/appbar_scrollling_view_behaviour ya3ne hay l nested scroll view bada tkoun met3la2a bel appbar l mawjoud 3ande bel shshe  ya3ne lama ykoun mawjoud tkoun ta7to ya3ne btem l ta3amol  b3ela2a ma3 l appbar hala2 neje la 5aseyet l enteralways mnl7ez eno iza 3mlt scroll kteer la fo2 7a ye5tefe l app bar hay ma3neta enteralways bye5tefe l appbar w 2awl ma enzal la ta7t byetla3 ma3e l collapsing tool bar 2awl ma nazel shshe bebyen l collapsing tool bar ma natar la nazel be2e nous ya3ne ykoun nous 2awalo ya3ne enta tala3t 3al e5er fa sar nous 2e5ro ok rja3 nazel fa 7aybyen l toolbar de8re 7ata law l nous lisa ma bayan 2awalo ma3neta eno l enteralways deyman lama ta3mel scroll la ta7t ynazelak l collapsing toolbar  ma3a
+scroll|enteralwayscollapse:le sar ana tel3t la fo2 5alyt l collapsed te5tefe rja3 hala2 nazel la ta7t ma benzael de8re l collapsed toolbar byontour la ye5las nous kolo ba3den bnazlo lal collapsed tool bar ya3ne 2awl ma yosal la bedeyet nous byes7ab ma3a l collapsed toolbar ya3ne ma tezeher l collapsed ela lama yosal la 2a3la nested scroll ya3ne la ma yezher 2awl nous
+scroll|exitUntilCollapsed:le sar ana tel3t la fo2 ma 5tafa l tool bar abl shway wa2t tle3t la fo2 3al 2e5er 5tafa bel mara l2no ftarad ana bade ezher nous w ma bade toolbar ama hala2 ana 2oltelo dalak 3meel collapsed 2awl ma tosal la 7ajm l toul ta3el l collapsed tool bar wa2ef w sabet l tool bar tab3an kol haw l 5asa2es btefre2 bel scroll down l exituntilcollapsed ma3neta 2awl ma yenzel la 7a ydal yetal3 l fo2 l 7ed ma yosal la toul l collapsed toolbar w ysabet l toolbar hay a7san 7ale lesh l2no masln ana bade est5dem zer add mesh mante2e eno lama ya3mel scroll la 2a3la ye5fe toolbar ana bade yeh ydal ybyen l zeer l add 3ashen yemken ya3mel edafe b 2aye wa2t
+scroll|snap:fekreta eno la7alo be2der sho bedak ya3ne iza tala3t shway z8ere bya3mel collapse b 7ajm mo7adad iza tala3t kteer w be2e shway lisa mbyen fa howe byeftered eno badak te5fe lal collpased tool bar 7asab l masefe l 2a2rab ya3ne iza kenet masefto 2a2rab lal expand la tawse3 btle2e twasa3 la 7alo bwas3o iza masefto 2a2rab lal collpased la dam btl2e damo 7asab l 3mlye hay w ma bebyen l collapsed tool bar ela la la tosal 2a3la l nested scroll tyeb ana abde yeh tyeb ana bade yeh ya3mel heeek ma ye5fe tool bar so best3mel scroll|exituntilcollapsed|snap
+scroll|snapMargins:houn ma la7lo be2der sho bedak ya3ne 7asaf l masefe l 2a2rab iza 2areb 3al expend 2aw 2areb 3al collapsed la2 houn keef ma enta btw2fo byo2af 7asab l user l margin ta3leo heek azdoun ya3ne user bado ywa2fo houn bew2fo houn metl ma bedo
+ -->
+
+
+<!--    floating action button:howe button mn l material design bel support library ma bdefo jowa nested la2 l2no ma bade ye ye5tfe wa2t koun fe 3anaser kteer ana bae yeh ykoun 5ereje ykoun sebet mn ta7t 3al yamen be8ad nazar 3mlt scroll wala la2  hala2 bas zedto telk2ayn bayan mn fo2 3al shmeel l2no 7asab l coordinator layout houn be7oto bas ne7na badna n8ayer ma7alo hala2 feek ta3te behavour eno bas na3mel scroll yezhar masln @string/appbar_scrolling_view_behavour 2aw badak yeh yezhar b 2asfal sheshe 2aw momken t5tarlo gravity eno buttom w end masln  -->
+
+<!--    attribute in nested scroll view esma cliptopadding mn7ota true sho ma3neta t5ayal enta 3andak recycle view 3mle padding  mn fo2 w mn ta7t fa bas 3am 2a3ml scroll 3am dal hay l padding  alak lesh bas ta3mel scroll ydal l padding mawjoude e5de mase7a fadye 3al fade  lesh ma bta3mel  eno  enta bas ta3mel scroll yrou7 heda l padding mn fo2 w mn ta7t bas terja3 3ade yerja3 fa 2alak fe attribut esma cliptopadding iza 7atyta true bta3mel heek ama iza badak bas ya3mel scroll dal l padding mawjoud bt7ot cliptopadding="false"-->
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:fitsSystemWindows="true"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:contentScrim="#1041C7"
+            app:expandedTitleMarginStart="10dp"
+            app:expandedTitleMarginEnd="26dp"
+            app:layout_scrollFlags="scroll|snap|exitUntilCollapsed">
+            <ImageView
+                android:scaleType="centerCrop"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fitsSystemWindows="true"
+                android:src="@drawable/city"
+                app:layout_collapseMode="parallax"/>
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?actionBarSize"
+                app:layout_collapseMode="pin"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="true"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="30sp"
+        android:text="baddnnudwnduiwndnsssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssswuidneeeendiwqndiwndnduniwdnfnefqnfnefnuinfuiqnuinubbyvtuvtvtvtvtvdndndndndndnnffnnenenebvbwvbweyvbybybweyvbeywbybeybeyvbywebvbyvbebewybveywvbvybyvbybyfefefefewefwfewfwefewfewfewfefeefefwefefewfefwefwfewfefefefefefewfewf">
+
+    </TextView>
+    </androidx.core.widget.NestedScrollView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_add_24"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="15dp"
+        app:layout_behavior="@string/fab_transformation_scrim_behavior"/>
+
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
